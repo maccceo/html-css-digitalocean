@@ -3,3 +3,50 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+ul>li {
+	list-style-type: none;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.float-dx > * {
+	float: right;
+}
+
+.float-sx > * {
+	float: left;
+}
+
+
+
+
+
+
+
+/*----------------*/
+/* # # NAVBAR # # */
+/*----------------*/
+.center {
+	display: inline;
+}
+
+.center * {
+	display: inline-block;
+}
+
+.top-navbar > *,
+.bottom-navbar > * {
+	vertical-align: center;
+}
+
+.top-navbar,
+.bottom-navbar {
+	vertical-align: center;
+	height: 50px;
+	width: 100%;
+	border: 1px solid black;
+}
+
