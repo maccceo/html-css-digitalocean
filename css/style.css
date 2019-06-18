@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+ul,p {
+	margin: 0;
+}
+
 ul>li {
 	list-style-type: none;
 }
@@ -16,12 +20,6 @@ body {
 	float: right;
 }
 
-.float-sx > * {
-	float: left;
-}
-
-
-
 
 
 
@@ -29,24 +27,56 @@ body {
 /*----------------*/
 /* # # NAVBAR # # */
 /*----------------*/
-.center {
-	display: inline;
-}
-
-.center * {
+.navbar * {
 	display: inline-block;
-}
-
-.top-navbar > *,
-.bottom-navbar > * {
-	vertical-align: center;
+	color: #091F4E;
+	font-weight: 600;
 }
 
 .top-navbar,
 .bottom-navbar {
-	vertical-align: center;
-	height: 50px;
+	padding: 5px 10px;
 	width: 100%;
-	border: 1px solid black;
+	height: 50px;
 }
 
+.top-navbar__left,
+.top-navbar__right,
+.bottom-navbar__left {
+	padding: 10px 0;
+	overflow: visible;
+}
+
+.bottom-navbar__right {
+	padding: 4px 0;
+}
+
+.navbar li {
+	padding-right: 8px;
+}
+
+.navbar a:hover {
+	color: #0065FC;
+	text-decoration: none;
+}
+
+#new-logo {
+	margin-top: -2px;		/*eh lo so oh..*/
+	padding-right: 5px;
+}
+
+#navbar-logo {
+	margin-top: -3px;		/*eh lo so oh..*/
+	padding-right: 10px;
+}
+
+#navbar__signup-button {
+	color: #0065FC;
+	font-weight: 700;
+	border: 1px #0065FC solid;
+}
+
+#navbar__signup-button:hover {
+	color: #FFF;
+	background-color: #0065FC;
+}
