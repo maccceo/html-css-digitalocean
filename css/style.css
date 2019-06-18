@@ -195,48 +195,72 @@ body {
 
 
 
-/*-------------------------*/
-/* # # LEFTNAV SECTION # # */
-/*-------------------------*/
-.leftnav-section__header {
+/*--------------------------*/
+/* # # FEATURES SECTION # # */
+/*--------------------------*/
+/* features-section
+	  row
+		features-section__header
+	  row
+		features-section__leftmenu
+		features-section__rightcontent
+		  features-section__rightcontent__container
+*/
+
+.features-section__header {
 	text-align: center;
+	margin: 60px 0 30px;
 }
 
-.leftnav-section__leftmenu {
+.features-section__leftmenu {
 	height: 400px;		/*da md in giù dovrà ridursi*/
 	padding: 30px 100px;
 }
 
-.leftnav-section__leftmenu li {
+.features-section__leftmenu li {
 	padding: 12px 20px;
 }
 
-.leftnav-section__leftmenu li a {
+.features-section__leftmenu li a {
 	color: #000;
 }
 
-.leftnav-section__leftmenu li:hover {
+.features-section__leftmenu li:hover {
 	font-weight: 700;
 	border-left: 2.5px solid blue;
 }
 
-.leftnav-section__leftmenu li:hover a {
+.features-section__leftmenu li:hover a {
 	text-decoration: none;
 }
 
+.features-section__rightcontent {
+
+}
+
+.features-section__rightcontent__blueicon {
+	height: 2.3rem;
+	margin: -4px 1px 0 0;
+}
+
+.features-section__rightcontent__container {
+	padding: 15px 30px;
+}
+
+
 @media (max-width: 1200px) { 
 
-	.leftnav-section__leftmenu {
-		height: 86px;
-		padding: 20px 20px 18px;
+	.features-section__leftmenu {
+		height: 38px;
+		padding: 0;
 		text-align: center;
 	}
 
-	.leftnav-section__leftmenu li {
+	.features-section__leftmenu li {
 		display: inline-block;
 	}
 
-	.leftnav-section__leftmenu li:hover {
+	.features-section__leftmenu li:hover {
 		border-left: 0;
 		border-bottom: 2.5px solid blue;
 	}
