@@ -12,12 +12,20 @@ ul>li {
 	list-style-type: none;
 }
 
+h1,h2 {
+	font-weight: 700;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 }
 
 .float-dx > * {
 	float: right;
+}
+
+.container-fluid {
+	padding: 0;
 }
 
 
@@ -79,4 +87,66 @@ body {
 #navbar__signup-button:hover {
 	color: #FFF;
 	background-color: #0065FC;
+}
+
+
+
+
+
+/*-------------------*/
+/* # # JUMBOTRON # # */
+/*-------------------*/
+.jumbotron {
+	background-image: url("../Resources/images/jumbotron-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	border-radius: 0 !important;
+	color: #FFF;
+}
+
+.jumbotron__left-section {
+	margin: 70px 10px;
+}
+
+.jumbotron__left-section h1 {
+	font-size: 56px;
+}
+
+.jumbotron__left-section p {
+	margin-top: 20px;
+	line-height: 32px;
+}
+
+.jumbotron__right-section {
+	width: 300px;
+	margin: 50px auto;
+	padding: 20px;
+	text-align: center;
+	color: #000;
+	background-color: white;
+}
+
+.jumbotron__right-section h2 {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.jumbotron__right-section p {
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+.jumbotron__right-section__button {
+	width: 250px;
+	padding: 7px;
+	margin-top: 13px;
+}
+
+#google-logo {
+	margin: -2px 5px 0 0;
+}
+/*tolgo bordo alle caselle di inserimento dati del form*/
+.form-control {
+	border: 0;
+    box-shadow: none;
 }
