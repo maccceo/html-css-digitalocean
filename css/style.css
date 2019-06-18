@@ -16,6 +16,10 @@ h1,h2 {
 	font-weight: 700;
 }
 
+h2 {
+	font-size: 2.7rem;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 }
@@ -186,3 +190,55 @@ body {
 #wework-logo {
 	margin-top: 8px;
 }
+
+
+
+
+
+/*-------------------------*/
+/* # # LEFTNAV SECTION # # */
+/*-------------------------*/
+.leftnav-section__header {
+	text-align: center;
+}
+
+.leftnav-section__leftmenu {
+	height: 400px;		/*da md in giù dovrà ridursi*/
+	padding: 30px 100px;
+}
+
+.leftnav-section__leftmenu li {
+	padding: 12px 20px;
+}
+
+.leftnav-section__leftmenu li a {
+	color: #000;
+}
+
+.leftnav-section__leftmenu li:hover {
+	font-weight: 700;
+	border-left: 2.5px solid blue;
+}
+
+.leftnav-section__leftmenu li:hover a {
+	text-decoration: none;
+}
+
+@media (max-width: 1200px) { 
+
+	.leftnav-section__leftmenu {
+		height: 86px;
+		padding: 20px 20px 18px;
+		text-align: center;
+	}
+
+	.leftnav-section__leftmenu li {
+		display: inline-block;
+	}
+
+	.leftnav-section__leftmenu li:hover {
+		border-left: 0;
+		border-bottom: 2.5px solid blue;
+	}
+
+ }
