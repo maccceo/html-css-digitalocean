@@ -37,6 +37,11 @@ body {
 	margin: 60px 0 30px;
 }
 
+.blueicon {
+	height: 2.3rem;
+	margin: -4px 3px 0 0;
+}
+
 .dot {
 	display: inline-block;
 	margin-right: 2px;
@@ -248,11 +253,6 @@ body {
 	padding-bottom: 60px;
 }
 
-.features-section__rightcontent__blueicon {
-	height: 2.3rem;
-	margin: -4px 1px 0 0;
-}
-
 .features-section__rightcontent__container {
 	padding: 15px 30px;
 }
@@ -297,4 +297,34 @@ body {
 #slideshow-section__slideshow__image {
 	max-width: 600px;
 	margin: 20px 0;
+}
+
+
+
+
+
+/*--------------------------------*/
+/* # # BUILD4BUSINESS SECTION # # */
+/*--------------------------------*/
+/* b4b-section
+	  row
+		b4b-section__header
+	  row
+		b4b-section__content
+		  b4b-section__content__section
+		  b4b-section__content__section
+		  b4b-section__content__section
+*/
+.b4b-section__header {
+	margin-bottom: 10px;
+}
+
+.b4b-section__content__section {
+	padding: 15px 30px 60px;
+}
+
+.b4b-section__content__section a {
+	display: inline-block;
+	font-weight: 600;
+	margin-top: 10px;
 }
