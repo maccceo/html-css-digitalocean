@@ -22,7 +22,6 @@ h2 {
 
 body {
 	font-family: 'Nunito', sans-serif;
-	width: 100%4
 }
 
 .float-dx > * {
@@ -94,12 +93,12 @@ body {
 }
 
 #new-logo {
-	margin-top: -2px;		/*eh lo so oh..*/
+	margin-top: -2px;
 	padding-right: 5px;
 }
 
 #navbar-logo {
-	margin-top: -3px;		/*eh lo so oh..*/
+	margin-top: -3px;
 	padding-right: 10px;
 }
 
@@ -121,6 +120,11 @@ body {
 /*-------------------*/
 /* # # JUMBOTRON # # */
 /*-------------------*/
+/* jumbotron
+	  row
+		jumbotron__left-section
+		jumbotron__right-section
+*/
 .jumbotron {
 	background-image: url("../Resources/images/jumbotron-bg.jpg");
 	background-position: center;
@@ -183,6 +187,12 @@ body {
 /*------------------------*/
 /* # # PARTNER BRIDGE # # */
 /*------------------------*/
+/* partner-bridge
+	  row
+		<h5>
+		partner-bridge__icon-container
+		<a>
+*/
 .partner-bridge {
 	text-align: center;
 }
@@ -225,6 +235,9 @@ body {
 	  row
 		features-section__leftmenu
 		features-section__rightcontent
+		  features-section__rightcontent__container
+		  features-section__rightcontent__container
+		  features-section__rightcontent__container
 		  features-section__rightcontent__container
 */
 
