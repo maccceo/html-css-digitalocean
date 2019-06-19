@@ -1,3 +1,11 @@
+/* COSA MANCA
+- Navbar con vh<992px ancora da sistemare
+- Before e After grafici
+- Ripulita del codice
+- Convertire le classi usate una volta sola in ID
+- (convertire la tabella in ul)
+*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -22,10 +30,7 @@ h2 {
 
 body {
 	font-family: 'Nunito', sans-serif;
-}
-
-.float-dx > * {
-	float: right;
+	padding-top: 100px;
 }
 
 .container-fluid {
@@ -59,13 +64,59 @@ body {
 /*----------------*/
 /* # # NAVBAR # # */
 /*----------------*/
+/*navbar
+	navbar-top
+	  navbar__tl   (top-left)
+	  navbar__tr
+	 navbar-bottom
+	   navbar__bl
+	   navbar__br
+*/ 
 .navbar * {
 	color: #091F4E;
 	font-weight: 600;
 }
 
+.navbar-top {
+	height: 40px;
+	padding: 10px 20px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.navbar-bottom {
+	height: 60px;
+	padding: 15px 20px;
+}
+
+#navbar-narrow {
+	display: none;
+	height: 50px;
+	padding: 12px 20px;
+	background-color: rgba(0,0,0,0);
+}
+
+/*necessario per centrare i suoi elementi, più alti del tasto Sign up*/
+.navbar__bl {
+	padding: 5px 0;
+}
+
+.navbar__nl {
+	padding: 4px 0;
+}
+
+/*liste, immagini, tutto va su una linea*/
+.navbar__tl *, .navbar__tr *,
+.navbar__bl *, .navbar__br * {
+	display: inline-block;
+}
+
+/*Bootstrap aggiunge un margine negativo che tolgo*/
+.navbar__tr, .navbar__br, .navbar__nr {
+	margin-right: 0;
+}
+
 .navbar li {
-	padding-right: 8px;
+	padding-right: 10px;
 }
 
 .navbar a:hover {
@@ -73,17 +124,14 @@ body {
 	text-decoration: none;
 }
 
-.navbar--right * {
-	display: inline-block;
-}
-
-#new-logo {
-	margin-top: -2px;
-	padding-right: 5px;
-}
-
-#navbar-logo {
+#navbar__new-logo {
 	margin-top: -3px;
+	padding-right: 5px;
+	height: 20px;
+}
+
+#navbar__logo {
+	margin-top: -4px;
 	padding-right: 10px;
 }
 
@@ -98,7 +146,21 @@ body {
 	background-color: #0065FC;
 }
 
+@media (max-width: 992px) { 
+	
+	#navbar-narrow {
+		display: block;
+	}
 
+	.navbar-top, .navbar-bottom {
+		display: none;
+	}
+
+	body {
+		padding-top: 0;
+	}
+
+}
 
 
 
@@ -164,7 +226,7 @@ body {
 @media (max-width: 992px) { 
 	.jumbotron__right-section {
 		float: none;
-		margin: 0 auto;
+		margin: 0 auto 60px auto;
 	}
 }
 
