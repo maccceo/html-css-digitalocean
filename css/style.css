@@ -395,3 +395,46 @@ body {
 	font-weight: 700;
 }
 
+
+
+
+
+/*---------------------------------*/
+/* # # PARTNER OPINION SECTION # # */
+/*---------------------------------*/
+/* partneropinion-section
+	  row
+		partneropinion-section__header
+	  row
+		partneropinion-section__container
+		partneropinion-section__dot
+*/
+.partneropinion-section__container {
+	text-align: center;
+	color: rgba(3,27,78,.7);
+}
+
+.partneropinion-section__container img {
+	height: 18px;
+	margin-top: 30px;
+}
+
+.partneropinion-section__quote {
+	max-width: 500px;
+	margin: 25px auto 15px;
+	font-size: 1.8rem;
+}
+
+.partneropinion-section__quoter {
+	font-size: 1.4rem;
+}
+
+.partneropinion-section__caption {
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+}
+
+.partneropinion-section__dot {
+	text-align: center;
+	margin: 50px 0 60px;
+}
