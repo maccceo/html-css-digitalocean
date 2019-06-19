@@ -479,3 +479,62 @@ body {
 	color: #0065FC;
 	background-color: #DDD;
 }
+
+
+
+
+
+/*------------------------*/
+/* # # FOOTER SECTION # # */
+/*------------------------*/
+/* footer
+	  row
+		footer-container
+		footer-container
+		footer-container
+		footer-container
+		footer-container
+*/
+footer {
+	background-color: #05152C;
+	color: hsla(0,0%,100%,.5);
+}
+
+.footer__container {
+	padding: 80px 20px 60px;
+}
+
+.footer__container li {
+	margin-bottom: 5px;
+}
+
+.footer__container li:first-child {
+	color: #FFF;
+	margin-bottom: 9px;
+}
+
+.footer__social-icon {
+	fill: hsla(0,0%,100%,.5);
+  	margin: 15px 8px 0 0;
+}
+
+.footer__social-icon:hover {
+	fill: #FFF;
+}
+
+/*riposizionamento ul*/
+@media (max-width: 992px) { 
+	
+	.footer__container {
+		padding: 0 20px 20px;
+	}
+
+	.footer__container:first-child {
+		padding: 80px 20px 30px;
+	}
+
+	.footer__container:last-child {
+		padding: 0 20px 60px;
+	}
+
+}
