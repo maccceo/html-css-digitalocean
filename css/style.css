@@ -52,7 +52,7 @@ body {
 }
 
 .dot--selected {
-	background-color: #0065FC
+	background-color: #0065FC;
 }
 
 
@@ -412,6 +412,7 @@ body {
 .partneropinion-section__container {
 	text-align: center;
 	color: rgba(3,27,78,.7);
+	font-weight: 300;
 }
 
 .partneropinion-section__container img {
@@ -437,4 +438,44 @@ body {
 .partneropinion-section__dot {
 	text-align: center;
 	margin: 50px 0 60px;
+}
+
+.partneropinion-section__container a {
+	font-weight: 700;
+}
+
+
+
+
+
+/*---------------------------------*/
+/* # # GET STARTED NOW SECTION # # */
+/*---------------------------------*/
+/* getstarted-section
+	  row
+		partneropinion-section__header
+*/
+.getstarted-section {
+	background-image: url("../Resources/images/startnow-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 50px 0;
+	color: #FFF;
+}
+
+.getstarted-section h3 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+
+.getstarted-section__button {
+	color: #0065FC;
+	font-weight: 700;
+	border-radius: 3px;
+}
+
+.getstarted-section__button:hover {
+	color: #0065FC;
+	background-color: #DDD;
 }
