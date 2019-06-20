@@ -1,5 +1,4 @@
 /* COSA MANCA
-- Navbar con vh<992px ancora da sistemare
 - Before e After grafici
 - Ripulita del codice
 - Convertire le classi usate una volta sola in ID
@@ -162,6 +161,19 @@ body {
 
 }
 
+/*Correzione a comportamento Bootstrap*/
+@media (max-width: 767px) { 
+    
+    .navbar__nr {
+	    margin-top: -28px;
+	    float: right;
+	}
+	
+	#navbar__logo {
+		padding-left: 12px;
+	}
+
+}
 
 
 /*-------------------*/
