@@ -62,11 +62,14 @@ body {
 	background-color: #0065FC;
 }
 
-.arrow--blue, .arrow--cyan {
+.arrow--blue, .arrow--cyan, .arrow--black {
 	margin-top: -1.3px;
 	height: 1.6rem;
 }
 
+.arrow--rotate {
+	transform: rotate(90deg);
+}
 
 /*----------------*/
 /* # # NAVBAR # # */
