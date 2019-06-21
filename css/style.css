@@ -3,6 +3,9 @@
 - Ripulita del codice
 - Convertire le classi usate una volta sola in ID
 - (convertire la tabella in ul)
+
+@ @ @ @ @ @
+
 */
 
 * {
@@ -57,6 +60,11 @@ body {
 
 .dot--selected {
 	background-color: #0065FC;
+}
+
+.arrow--blue, .arrow--cyan {
+	margin-top: -1.3px;
+	height: 1.6rem;
 }
 
 
@@ -498,38 +506,38 @@ body {
 		partneropinion-section__container
 		partneropinion-section__dot
 */
-.partneropinion-section__container {
+#partneropinion-section__container {
 	text-align: center;
 	color: rgba(3,27,78,.7);
 	font-weight: 300;
 }
 
-.partneropinion-section__container img {
+#partneropinion-section__logo {
 	height: 18px;
 	margin-top: 30px;
 }
 
-.partneropinion-section__quote {
+#partneropinion-section__quote {
 	max-width: 500px;
 	margin: 25px auto 15px;
 	font-size: 1.8rem;
 }
 
-.partneropinion-section__quoter {
+#partneropinion-section__quoter {
 	font-size: 1.4rem;
 }
 
-.partneropinion-section__caption {
+#partneropinion-section__caption {
 	font-size: 1.1rem;
 	margin-bottom: 20px;
 }
 
-.partneropinion-section__dot {
+#partneropinion-section__dot {
 	text-align: center;
 	margin: 50px 0 60px;
 }
 
-.partneropinion-section__container a {
+#partneropinion-section__container a {
 	font-weight: 700;
 }
 
